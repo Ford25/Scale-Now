@@ -1,0 +1,355 @@
+// .testimonials{
+//     width: 100%;
+//     max-width: 2000px;
+//     margin: 0 auto;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     padding: 50px 130px 50px 130px;
+//     position: relative;
+//     display: none;
+
+//     .glow-effect{
+//         position: absolute;
+//         right: 0;
+//         top: 100px;
+//         z-index: -1;
+//     }
+
+//     .title{
+//         width: 100%;
+//         margin-top: 25px;
+//         h1{
+//             font-family: 'Brandon Text';
+//             font-style: normal;
+//             font-weight: 500;
+//             font-size: 50px;
+//             line-height: 63px;
+//             align-items: center;
+//             letter-spacing: 0.035em;
+//             color: #FFFFFF;       
+//             text-align: center;    
+//         }
+//         span{
+//             background: linear-gradient(94.54deg, #A71DA3 7.45%, #4053D4 90.12%);
+//             -webkit-background-clip: text;
+//             -webkit-text-fill-color: transparent;
+//             background-clip: text;
+                               
+//         }
+//         p{
+//             font-family: 'Poppins';
+//             font-style: normal;
+//             font-weight: 600;
+//             font-size: 20px;
+//             line-height: 30px;
+//             color: #FFFFFF;
+//             text-align: center;   
+//             margin-top: 25px;
+//         }
+//     }
+// }
+
+
+
+.testimonials{
+
+    width: 100%;
+    max-width: 2000px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 95px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    
+
+    .glow-effect{
+                position: absolute;
+                right: 0;
+                top: 100px;
+                z-index: -1;
+            }
+        
+            .title{
+                width: 100%;
+                margin-top: 25px;
+                margin-bottom: 50px;
+                h1{
+                    font-family: 'Brandon Text';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 50px;
+                    line-height: 63px;
+                    align-items: center;
+                    letter-spacing: 0.035em;
+                    color: #FFFFFF;       
+                    text-align: center;    
+                }
+                span{
+                    background: linear-gradient(94.54deg, #A71DA3 7.45%, #4053D4 90.12%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                                       
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #FFFFFF;
+                    text-align: center;   
+                    margin-top: 25px;
+                }
+            }
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.img-circle{
+    position: absolute;
+    top: -30px;
+    
+}
+.shadow-effect {
+    background: #0C0C0C;
+    padding: 60px;
+    text-align: center;
+    border: 3px solid #A71DA3;
+    border-radius: 20px;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+}
+#customers-testimonials .shadow-effect p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    
+   
+}
+#customers-testimonials .shadow-effect .p-bold{
+    font-size: 20px;
+}
+#customers-testimonials .shadow-effect .parag{
+    margin-top: 30px;
+}
+
+
+.testimonial-name {
+    margin: -25px auto 0;
+    display: table;
+    width: auto;
+    background: linear-gradient(96.2deg, #FD6585 2.71%, #0D25B9 118.94%);
+    box-shadow: 0px 0px 40px -8px #A71DA3;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 9px 35px;
+    text-align: center;
+    color: #fff;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    
+}
+#customers-testimonials .item {
+    text-align: center;
+    padding: 50px;
+    margin-bottom:30px;
+    opacity: .2;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+}
+#customers-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+    margin-top: 60px;
+    
+}
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto 15px;
+    
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #A71DA3;
+    transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+display: inline-block;
+width: 100%;
+text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+    background: #A71DA3;
+    display: inline-block;
+    height: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 20px;
+}
+
+.owl-navigation {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .owl-nav-prev,
+  .owl-nav-next {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .owl-nav-prev {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .owl-nav-next {
+    float: right;
+    margin-right: 20px;
+  }
+  
+@media(max-width:1170px){
+    .testimonials{
+        padding: 20px 0px 0 0px;
+
+        h1{
+            padding-left: 95px;
+            padding-right: 95px;
+        }
+
+        .title{
+            h1{
+                font-size: 45px;
+                 line-height: 55px;
+            }
+        }
+       
+    }
+
+   
+
+}
+
+@media(max-width:630px){
+    .testimonials{
+        padding: 20px 20px 0 20px;
+
+        .title{
+            padding-left: 30px;
+            padding-right: 30px;
+            h1{
+                font-size: 40px;
+                 line-height: 50px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+
+        h1{
+            font-size: 42px;
+            line-height: 103%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    .shadow-effect{
+        padding: 100px 10px;
+
+
+    }
+
+   
+
+}
+@media(max-width:550px){
+    .testimonials{
+        .title{
+            padding-left: 30px;
+            padding-right: 30px;
+            h1{
+                font-size: 30px;
+                 line-height: 40px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+    
+    #customers-testimonials .shadow-effect p {
+     
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        
+       
+    }
+    #customers-testimonials .item {
+        text-align: center;
+        padding: 20px;
+        margin-bottom:30px;
+      
+        
+    }
+    
+}
+@media(max-width:400px){
+   
+    #customers-testimonials .shadow-effect p {
+     
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+       
+    }
+   
+}
